@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #E91E63;
+  --secondary-color: #FF5722;
+  --font-color: #333333;
+  --bot-bubble-color: #FF5722;
+  --user-bubble-color: #E91E63;
+  --background-color: #ffffff;
+  --font-family: "Arial", sans-serif;
+}
+
+.chat-widget {
+  font-family: var(--font-family);
+  color: var(--font-color);
+  background-color: var(--background-color);
+}
+
+.chat-widget .bot-message {
+  background-color: var(--bot-bubble-color);
+  color: #fff;
+}
+
+.chat-widget .user-message {
+  background-color: var(--user-bubble-color);
+  color: #fff;
+}
+
+.chat-widget .chat-header {
+  background-color: var(--primary-color);
+  color: #fff;
+}
